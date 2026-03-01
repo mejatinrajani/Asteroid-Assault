@@ -1,6 +1,6 @@
 # Asteroid Assault
 
-Cosmic Drift: Asteroid Assault is a fast-paced browser-based arcade shooter inspired by classic asteroid games. Built entirely with HTML5 Canvas and Vanilla JavaScript, the game challenges players to survive endless waves of asteroids while collecting power-ups and mastering physics-based ship control.
+Asteroid Assault is a fast-paced browser-based arcade shooter inspired by classic asteroid games. Built entirely with HTML5 Canvas and Vanilla JavaScript, the game challenges players to survive endless waves of asteroids while collecting power-ups and mastering physics-based ship control.
 
 ---
 
