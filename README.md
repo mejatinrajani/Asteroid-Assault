@@ -82,8 +82,8 @@ No frameworks. No external libraries. Fully client-side.
 ```
 /project
 │── index.html
-│── style.css
-│── game.js
+│── styles.css
+│── script.js
 │── README.md
 │── LICENSE
 ```
