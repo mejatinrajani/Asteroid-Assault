@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #050515;
+    font-family: 'Press Start 2P', cursive;
+    color: #eee;
+    overflow: hidden;
+}
+
+#gameCanvas {
+    border: 2px solid #00ffff;
+    display: block;
+    max-width: 95vw;
+    max-height: 75vh;
+    box-shadow: 0 0 15px #00ffff;
+    background-color: #080810;
+}
+
+#controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#controls button {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #301050;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00ffff inset, 0 0 5px #00ffff;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+#controls button:active, #controls button.active {
+    background-color: #503070;
+    box-shadow: 0 0 8px #00ffff inset, 0 0 8px #00ffff;
+}
+
+#gameInfoContainer {
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     font-size: 14px;
+     color: #00ffff;
+     text-shadow: 0 0 3px #00ffff;
+     line-height: 1.4;
+     z-index: 5;
+ }
+
+#powerUpInfo, #thrustInfo {
+    font-size: 12px;
+    color: #ffff00;
+    text-shadow: 0 0 3px #ffff00;
+}
+
+
+#messageArea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+    background-color: rgba(10, 10, 30, 0.8);
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    z-index: 10;
+    text-shadow: 0 0 5px #ffffff;
+}
